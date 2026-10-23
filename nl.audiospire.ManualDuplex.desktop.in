@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Manual Duplex
+GenericName=Double-sided printing
+Comment=Print double-sided on a single-sided printer
+Exec=python3 "@DIR@/manual_duplex.py" %F
+Icon=printer
+Terminal=false
+Categories=Office;Utility;
+MimeType=application/pdf;
+StartupNotify=true
